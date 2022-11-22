@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "homepage": "https://github.com/kinday/playwright-gha-test#readme",
+  "bugs": {
+    "url": "https://github.com/kinday/playwright-gha-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinday/playwright-gha-test.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.28.0",
+    "parcel": "^2.8.0"
+  },
+  "packageManager": "pnpm@7.16.0"
+}
