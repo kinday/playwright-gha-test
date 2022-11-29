@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Run Playwright tests
+        env:
+          # Workaround for Chromium permission check
+          HOME: /root
         run: pnpm dlx playwright test
       - uses: actions/upload-artifact@v3
         if: always()
