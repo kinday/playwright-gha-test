@@ -14,7 +14,7 @@
     "start": "parcel src/index.html"
   },
   "devDependencies": {
-    "@playwright/test": "^1.28.0",
+    "@playwright/test": "^1.28.1",
     "parcel": "^2.8.0"
   },
   "packageManager": "pnpm@7.16.0"
