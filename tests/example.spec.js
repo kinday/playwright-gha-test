@@ -55,7 +55,7 @@ test("logs in", async ({ page }) => {
   await usernameInput.type("kinday")
 
   const passwordInput = page.getByLabel("Password")
-  await passwordInput.type("Abc123")
+  await passwordInput.type("qwertyuiopasdfghjklzxcvbnm1234567890")
 
   const submitButton = page.getByRole("button", { name: "Submit" })
   await submitButton.click()
