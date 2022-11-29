@@ -9,7 +9,8 @@ function validate({ username, password }) {
     return "Password is required"
   } else if (
     username !== "kinday" &&
-    password !== "qwertyuiopasdfghjklzxcvbnm1234567890"
+    password !==
+      "qwertyuiopasdfghjklzxcvbnm1234567890qwertyuiopasdfghjklzxcvbnm1234567890qwertyuiopasdfghjklzxcvbnm1234567890qwertyuiopasdfghjklzxcvbnm1234567890"
   ) {
     return "Incorrect credentials"
   }
