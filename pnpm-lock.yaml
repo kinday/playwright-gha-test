@@ -1,13 +1,15 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@playwright/test': ^1.28.1
-  monaco-editor: ^0.34.1
-  vite: ^4.0.3
+  '@playwright/test': 1.28.1
+  monaco-editor: 0.34.1
+  playwright: 1.28.1
+  vite: 4.0.3
 
 devDependencies:
   '@playwright/test': 1.28.1
   monaco-editor: 0.34.1
+  playwright: 1.28.1
   vite: 4.0.3
 
 packages:
@@ -300,6 +302,15 @@ packages:
     resolution: {integrity: sha512-3PixLnGPno0E8rSBJjtwqTwJe3Yw72QwBBBxNoukIj3lEeBNXwbNiKrNuB1oyQgTBw5QHUhNO3SteEtHaMK6ag==}
     engines: {node: '>=14'}
     hasBin: true
+    dev: true
+
+  /playwright/1.28.1:
+    resolution: {integrity: sha512-92Sz6XBlfHlb9tK5UCDzIFAuIkHHpemA9zwUaqvo+w7sFMSmVMGmvKcbptof/eJObq63PGnMhM75x7qxhTR78Q==}
+    engines: {node: '>=14'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      playwright-core: 1.28.1
     dev: true
 
   /postcss/8.4.20:
