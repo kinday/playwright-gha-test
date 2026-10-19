@@ -5,6 +5,13 @@ on:
   pull_request:
     branches: [main, master]
 jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "$PATH"
+          which zstd
+
   test:
     timeout-minutes: 60
     container:
